@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/front-spring-reactive-4-en-raya" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/proyectos fullstack/conecta4-angular/connecta-4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/proyectos fullstack/empleados/front/empleados" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/proyectos fullstack/four-in-row/play-connect-four" vcs="Git" />
+  </component>
+</project>

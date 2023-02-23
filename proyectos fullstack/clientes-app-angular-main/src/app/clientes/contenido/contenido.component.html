@@ -1,0 +1,41 @@
+<table class="table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellido</th>
+      <th scope="col">Email</th>
+      <th scope="col">Telefono</th>
+      <th scope="col">Region</th>
+      <th scope="col">Fecha</th>
+      <th scope="col">Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of clientes">
+     <!-- <th scope="row">{{item.id}}</th>-->
+     <td>
+      <img name="image1" *ngIf="!item.imagen" src="{{imagenSrc}}" alt="default" style="width:64px;"
+      class="img-thumbnail rounded">
+      <img name="image2" *ngIf="item.imagen" src="http://localhost:8087/api/uploads/img/{{item.imagen}}" alt="{{item.imagen}}" alt="default" style="width:64px;"
+      class="img-thumbnail rounded">
+
+     </td>
+      <td>{{item.nombre}}</td>
+      <td>{{item.apellido}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.telefono}}</td>
+      <td>{{item.region.nombre}}</td>
+      <td>{{item.createAt}}</td>
+      <td>
+        <button class="btn btn-info btn-sm m-2"
+         [routerLink]="['/clientes/ver/',item.id]">Ver</button>
+         <button class="btn btn-primary btn-sm m-2"
+         [routerLink]="['/clientes/editar/',item.id]">Editar</button>
+         <button class="btn btn-danger btn-sm m-2"
+          (click)="delete(item)">Eliminar</button>
+      </td>
+    </tr>
+
+  </tbody>
+</table>

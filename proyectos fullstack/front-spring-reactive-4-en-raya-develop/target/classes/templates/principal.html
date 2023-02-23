@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/styles/estilos.css}"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>CONECTA4-Inicio</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body onload="getIPFromAmazon()">
+<div class="card">
+    <img th:src="@{/images/conecta.png}" class="card-img-top">
+    <div class="card-body">
+        <h5 class="card-title">CONECTA-4</h5>
+        <form action="#" th:action="@{/jugador1}" th:object="${jugador}" method="post">
+            <div class="mb-3">
+                <label for="nombre">Introduce tu nombre de jugador 1</label>
+                <input th:field="*{nombre}" type="text" id="nombre" placeholder="Nombre">
+                <input hidden th:field="*{direccion_ip}" type="text" id="ip"
+                       placeholder="Ip">
+            </div>
+            <div class="mb-3">
+                <input type="submit" value="Jugar">
+            </div>
+        </form>
+    </div>
+</div>
+<h2><a style="color: white" th:href="@{/inicio}">Volver inicio</a></h2>
+<script>
+    async function getIPFromAmazon() {
+        $.getJSON('https://api.db-ip.com/v2/free/self', function(data) {
+            document.getElementById("ip").value = data.ipAddress;
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/styles/estilos.css}"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Eventos de la partida</title>
+</head>
+<body>
+<div class="card" style="width: 75%; padding-bottom: 5%; margin-bottom: 5%">
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-9">
+            <div class="card-body">
+                <h2 class="card-tittle">Eventos de la jugada: </h2>
+                <table class="table table-responsive">
+                    <tr>
+                        <th>ID partida</th>
+                        <th>Numero jugada</th>
+                        <th>Tiempo</th>
+                        <th>Columna</th>
+                        <th>Fila</th>
+                        <th>Jugador</th>
+                        <th>Ganador</th>
+                    </tr>
+                    <tr th:each="h : ${historico}">
+                        <td style="background-color: white"><p th:text="${h.id}"></p></td>
+                        <td style="background-color: white"><p th:text="${h.numerojugada}"></p></td>
+                        <td style="background-color: white"><p th:text="${h.fechayhora}"></p></td>
+                        <td style="background-color: white"><p th:text="${h.columna}"></p></td>
+                        <td style="background-color: white"><p th:text="${h.fila}"></p></td>
+                        <td style="background-color: white"><p th:text="${h.jugador}"></p></td>
+                        <td style="background-color: white">
+                            <div th:if="${h.ganador}">
+                                <p>Sí</p>
+                            </div>
+                            <div th:unless="${h.ganador}">
+                                <p>No</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<h2><a style="color: white" th:href="@{/inicio}">Volver inicio</a></h2>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/styles/estilos.css}"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>CONECTA4-Partida</title>
+</head>
+<body>
+<div class="card" style="width: 75%; padding-bottom: 5%; margin-bottom: 5%" id="juego">
+    <div id="block"></div>
+    <div class="row">
+
+        <input hidden id="idJG1" th:value="${jugador1.direccion_ip}">
+        <input hidden id="idJG2" th:value="${jugador2.direccion_ip}">
+        <input hidden id="turno" th:value="${turno}">
+        <form>
+            <input hidden type="text" id="ip"/>
+        </form>
+        <div class="col-3">
+            <h4 th:text="${jugador1.nombre}"></h4>
+            <img class="img-player"
+                 src="../static/images/red.png" th:src="@{/images/red.png}">
+            <h4 th:text="${jugador2.nombre}"></h4>
+            <img class="img-player"
+                 src="../static/images/red.png" th:src="@{/images/yellow.png}">
+        </div>
+        <div class="col-9">
+            <table>
+                <thead>
+                <tr>
+                    <th th:each="col: ${columnas}">
+                        <form action="#" th:action="@{/mov/__${tablero.id}__/__${col}__}"
+                              th:object="${movimiento}"
+                              method="POST">
+                            <input class="img-th" type="image" name="submit" th:src="@{/images/flecha.png}">
+                        </form>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="row: ${tablero.matriz}">
+                    <td th:each="value: ${row}">
+                        <img th:if="${value == 0}" class="img-player"
+                             src="../static/images/white.png" th:src="@{/images/white.png}">
+                        <img th:if="${value == 1}" class="img-player"
+                             src="../static/images/red.png" th:src="@{/images/red.png}">
+                        <img th:if="${value == 2}" class="img-player"
+                             src="../static/images/yellow.png" th:src="@{/images/yellow.png}">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="card" style="width: 75%; padding-bottom: 5%; margin-bottom: 5%">
+    <div th:if="${winner}">
+        <h3>¡GANADOR!</h3>
+        <!-- Me lleva a la página del ganador -->
+        <script>
+            setTimeout(function () {
+                window.location.href = "http://localhost:8081/ganador";
+            }, 2000);
+
+
+        </script>
+    </div>
+    <div th:unless="${winner}">
+        <h3>Aún no hay ganador</h3>
+    </div>
+</div>
+<h2><a style="color: white" th:href="@{/inicio}">Volver inicio</a></h2>
+<!-- Con esto se refresca la página cada tres segundos para ver los cambios  -->
+<script>
+    setTimeout(function () {
+        window.location.reload();
+    }, 3000);
+
+
+</script>
+
+<div hidden id = "empate" th:value="${empate}"></div>
+<div th:if="${empate} == 1">
+    <script>
+            let a = document.getElementById("empate");
+            console.log(a);
+            setTimeout(function () {
+            window.location.href="http://localhost:8081/empate";
+            }, 2000);
+    </script>
+</div>
+
+<script>
+
+    async function ee() {
+        const request = await $.getJSON('https://api.db-ip.com/v2/free/self')
+        // otro = data.ipAddress;
+        // console.log("otro: " + otro);
+        // otro = document.getElementById("ip").value = data.ipAddress;
+        return request;
+    }
+
+    let ipJugador;
+    ee()
+        .then((data) => {
+            console.log(data)
+        })
+        .then((data) => {
+            ipJugador = data.ipAddress
+        });
+
+    // let ipJugador = document.getElementById("ip").value;
+    console.log("ip maquina: " + ipJugador);
+
+    let ipJG1 = document.getElementById("idJG1").value;
+    console.log("ip JG1: " + ipJG1);
+
+    let ipJG2 = document.getElementById("idJG2").value;
+    console.log("ip JG2: " + ipJG2);
+
+    let turno = document.getElementById("turno").value;
+    console.log("turno anterior de jg---> " + turno);
+
+    if (turno == 1 && ipJugador == ipJG1) {
+        console.log("bloqueando pantalla jg1");
+    }
+
+    if (turno == 2) {
+        console.log("turno....bloqueando pantalla jg2");
+    }
+    console.log("maquina: " + ipJugador)
+
+
+    ee()
+        .then((data) => {
+            if (data.ipAddress != ipJG2 && data.ipAddress != ipJG1) {
+                document.getElementById("block").className = "blocker";
+            } else {
+                if (turno == 2 && data.ipAddress == ipJG2) {
+                    document.getElementById("block").className = "blocker";
+                }
+<!--                 else {-->
+<!--                    document.getElementById("block").className = "vacio";-->
+<!--                }-->
+                if (turno == 1 && data.ipAddress == ipJG1) {
+                    document.getElementById("block").className = "blocker";
+                }
+<!--                else {-->
+<!--                    document.getElementById("block").className = "vacio";-->
+<!--                }-->
+            }
+        });
+
+
+</script>
+</body>
+</html>

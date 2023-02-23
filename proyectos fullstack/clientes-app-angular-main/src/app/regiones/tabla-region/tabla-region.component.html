@@ -1,0 +1,15 @@
+<table class="table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of regiones">
+     <th scope="row">{{item.id}}</th>
+      <td>{{item.nombre}}</td>
+    </tr>
+  </tbody>
+</table>
+

@@ -1,0 +1,71 @@
+body {
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44);
+}
+
+.card {
+    margin: 5% auto auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.card-img-top {
+    margin: auto;
+    width: 50%;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.img-th {
+    width: 100px;
+    height: 70px;
+}
+
+.img-player {
+    max-width: 90px;
+    height: 60px;
+}
+
+td {
+    background-color: #638CFF;
+    padding: 2%;
+}
+
+.cssTable td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-3 {
+    padding-left: 2%;
+    padding-right: 5%;
+    padding-top: 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.row {
+    margin-top: 3%;
+    padding-bottom: initial;
+    margin-left: 1%;
+}
+
+.popup {
+    z-index: 100; /* un z-index mayor al del blocker */
+    background-color: white; /* Un color de fondo para que se vea sobre la capa anterior*/
+    text-align: center;
+}
+
+.blocker {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%; /* hacemos que ocupe toda la pantalla a cualquier resolución*/
+    z-index: 50; /* lo colocamos por encima del resto de componentes*/
+    background: linear-gradient(to right, #4286f4, #373B44) repeat; /*Color de fondo semitransparente*/
+    opacity: 0.25;
+}
+
