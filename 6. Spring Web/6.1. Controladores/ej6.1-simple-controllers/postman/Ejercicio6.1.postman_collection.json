@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "fbc23cbf-2125-4da2-a599-06b06b7e283a",
+		"name": "Ejercicio6.1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21517135"
+	},
+	"item": [
+		{
+			"name": "Recibe un objeto en formato JSON",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"carlos\",\r\n    \"age\" : 41,\r\n    \"town\": \"Madrid\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/useradd/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"useradd",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enviar variable nombre",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"carlos\",\r\n    \"age\" : 41,\r\n    \"town\": \"Madrid\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/carlos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"carlos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

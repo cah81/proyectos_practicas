@@ -1,0 +1,2 @@
+java -jar .\upload-download-file-
+0.0.1-SNAPSHOT.jar 'c:/temp/upload'

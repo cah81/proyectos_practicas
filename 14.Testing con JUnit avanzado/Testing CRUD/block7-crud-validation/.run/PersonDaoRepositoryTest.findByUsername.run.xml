@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Temp suite" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="block7-crud-validation" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.formacion.BS7_2.person.infraestructure.repository.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="com.formacion.BS7_2.person.infraestructure.repository" />
+    <option name="MAIN_CLASS_NAME" value="com.formacion.BS7_2.person.infraestructure.repository.PersonDaoRepositoryTest" />
+    <option name="METHOD_NAME" value="findByUsername" />
+    <option name="TEST_OBJECT" value="tags" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,78 @@
+version: '3'
+services:
+  eureka-server:
+    image: api_discovery
+    expose:
+      - 7070
+    ports:
+      - 7070:7070
+
+
+  api-gateway:
+    container_name: api-gateway
+    image: apigateway
+    expose:
+      - 8082
+    ports:
+      - 8082:8082
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:7070/eureka
+      SERVER_PORT: 8082
+    links:
+      - eureka-server
+    depends_on:
+      - eureka-server
+
+
+  backend:
+    image: backend
+    expose:
+      - 8100
+    ports:
+      - 8100:8100
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:7070/eureka
+      SERVER_PORT: 8100
+    links:
+      - eureka-server
+    depends_on:
+      - eureka-server
+      - serverBdBack
+  frontend:
+    image: frontend
+    expose:
+      - 8200
+    ports:
+      - 8200:8200
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:7070/eureka
+      SERVER_PORT: 8200
+    links:
+      - eureka-server
+    depends_on:
+      - eureka-server
+      - serverBDFront
+
+
+  serverBdBack:
+      container_name: bdBackend
+      image: postgres
+      restart: always
+      environment:
+        POSTGRES_USER: root
+        POSTGRES_PASSWORD: root
+        POSTGRES_DB: backend
+      networks:
+        - myNetwork
+  serverBDFront:
+    container_name: bdFrontEnd
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: frontend
+
+
+networks:
+  myNetwork:

@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run8081" type="Application" factoryName="Application">
+    <envs>
+      <env name="server.port" value="8081" />
+      <env name="spring.application.name" value=" feignClient" />
+      <env name="spring.datasource.url" value="jdbc:h2:file:~/test2" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.formacion.BS7_2.Bs72CRUDApplication" />
+    <module name="ej7.2-crud-validation" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run8080" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.formacion.BS7_2.Bs72CRUDApplication" />
+    <module name="block7-crud-validation" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

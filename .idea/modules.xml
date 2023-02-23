@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/eureka-naming-server/API_Discovery.iml" filepath="$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/eureka-naming-server/API_Discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.1-simple-controllers/BS6.1.iml" filepath="$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.1-simple-controllers/BS6.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.3-path-variable-headers/BS6.3.iml" filepath="$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.3-path-variable-headers/BS6.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. Spring Data (Básico)/7.1. CRUD/ej7.1-crud/BS7_1.iml" filepath="$PROJECT_DIR$/7. Spring Data (Básico)/7.1. CRUD/ej7.1-crud/BS7_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15.Spring Security/Login/block7-crud-validation/BS7_2.iml" filepath="$PROJECT_DIR$/15.Spring Security/Login/block7-crud-validation/BS7_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.SpringWebAvanzado/CORS/block7-crud-validation/BS7_2 (1).iml" filepath="$PROJECT_DIR$/11.SpringWebAvanzado/CORS/block7-crud-validation/BS7_2 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/7. Spring Data (Básico)/7.2. CRUD con validación/ej7.2-crud-validation/BS7_2 (2).iml" filepath="$PROJECT_DIR$/7. Spring Data (Básico)/7.2. CRUD con validación/ej7.2-crud-validation/BS7_2 (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/13.Spring Data(Avanzado)/CriteriaBuilder/block7-crud-validation/BS7_2 (3).iml" filepath="$PROJECT_DIR$/13.Spring Data(Avanzado)/CriteriaBuilder/block7-crud-validation/BS7_2 (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/14.Testing con JUnit avanzado/Testing CRUD/block7-crud-validation/BS7_2 (4).iml" filepath="$PROJECT_DIR$/14.Testing con JUnit avanzado/Testing CRUD/block7-crud-validation/BS7_2 (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.docker/dockerizaraplicacion/Ejercicio10/Ejercicio10.iml" filepath="$PROJECT_DIR$/10.docker/dockerizaraplicacion/Ejercicio10/Ejercicio10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3. Herramientas MavenGit/ej3.1-maven-package/Ejercicio3.1/Ejercicio3.3.iml" filepath="$PROJECT_DIR$/3. Herramientas MavenGit/ej3.1-maven-package/Ejercicio3.1/Ejercicio3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13.Spring Data(Avanzado)/Mongo/ejercicio13_2/Spring-mongo-template.iml" filepath="$PROJECT_DIR$/13.Spring Data(Avanzado)/Mongo/ejercicio13_2/Spring-mongo-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/apigateway/apigateway.iml" filepath="$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/apigateway/apigateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend/backend.iml" filepath="$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend-front/backendfront.iml" filepath="$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend-front/backendfront.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.SpringBootBasico/5.1. CommandLineRunner/ej5.1-command-line-runner/com.bosonit.sb1.iml" filepath="$PROJECT_DIR$/5.SpringBootBasico/5.1. CommandLineRunner/ej5.1-command-line-runner/com.bosonit.sb1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.SpringBootBasico/5.3. Logging/ej5.3-logging/com.ej5.3-logging.iml" filepath="$PROJECT_DIR$/5.SpringBootBasico/5.3. Logging/ej5.3-logging/com.ej5.3-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.JavaDeveloperKit(JDK)/1.1. Lectura de ficheros y filtrado con Stream/ej1.1-process-file-and-streams/ej1.1-process-file-and-streams.iml" filepath="$PROJECT_DIR$/1.JavaDeveloperKit(JDK)/1.1. Lectura de ficheros y filtrado con Stream/ej1.1-process-file-and-streams/ej1.1-process-file-and-streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.SpringBootBasico/5.2. Carga de propiedades/ej5.2-properties/ej5.2-properties.iml" filepath="$PROJECT_DIR$/5.SpringBootBasico/5.2. Carga de propiedades/ej5.2-properties/ej5.2-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.2-person-controller/ej6.2-person-controller.iml" filepath="$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.2-person-controller/ej6.2-person-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examen_JPA_cascada/examen-jpa/examen-jpa.iml" filepath="$PROJECT_DIR$/examen_JPA_cascada/examen-jpa/examen-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceLocator2/motorService/motorService.iml" filepath="$PROJECT_DIR$/serviceLocator2/motorService/motorService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-consumer/myapp-consumer.iml" filepath="$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-consumer/myapp-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-producer/myapp-producer.iml" filepath="$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-producer/myapp-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.SpringBootBasico/5.4-profiles/profiles.iml" filepath="$PROJECT_DIR$/5.SpringBootBasico/5.4-profiles/profiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/proyectos_practicas.iml" filepath="$PROJECT_DIR$/.idea/proyectos_practicas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singleton/singleton.iml" filepath="$PROJECT_DIR$/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17.batch/temperature-batch/temperature-batch.iml" filepath="$PROJECT_DIR$/17.batch/temperature-batch/temperature-batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13.Spring Data(Avanzado)/SubirYBajarFicheros/block13-upload-download-file/upload-download-file.iml" filepath="$PROJECT_DIR$/13.Spring Data(Avanzado)/SubirYBajarFicheros/block13-upload-download-file/upload-download-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceLocator2/vehiculos.iml" filepath="$PROJECT_DIR$/serviceLocator2/vehiculos.iml" />
+    </modules>
+  </component>
+</project>

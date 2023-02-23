@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/17.batch/temperature-batch/pom.xml" />
+        <option value="$PROJECT_DIR$/10.docker/dockerizaraplicacion/Ejercicio10/pom.xml" />
+        <option value="$PROJECT_DIR$/singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.2-person-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.1-simple-controllers/pom.xml" />
+        <option value="$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.3-path-variable-headers/pom.xml" />
+        <option value="$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/apigateway/pom.xml" />
+        <option value="$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend-front/pom.xml" />
+        <option value="$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/eureka-naming-server/pom.xml" />
+        <option value="$PROJECT_DIR$/serviceLocator2/pom.xml" />
+        <option value="$PROJECT_DIR$/15.Spring Security/Login/block7-crud-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/5.SpringBootBasico/5.3. Logging/ej5.3-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/5.SpringBootBasico/5.4-profiles/pom.xml" />
+        <option value="$PROJECT_DIR$/5.SpringBootBasico/5.1. CommandLineRunner/ej5.1-command-line-runner/pom.xml" />
+        <option value="$PROJECT_DIR$/5.SpringBootBasico/5.2. Carga de propiedades/ej5.2-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/examen_JPA_cascada/examen-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/11.SpringWebAvanzado/CORS/block7-crud-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/1.JavaDeveloperKit(JDK)/1.1. Lectura de ficheros y filtrado con Stream/ej1.1-process-file-and-streams/pom.xml" />
+        <option value="$PROJECT_DIR$/7. Spring Data (Básico)/7.1. CRUD/ej7.1-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/7. Spring Data (Básico)/7.2. CRUD con validación/ej7.2-crud-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/13.Spring Data(Avanzado)/Mongo/ejercicio13_2/pom.xml" />
+        <option value="$PROJECT_DIR$/13.Spring Data(Avanzado)/CriteriaBuilder/block7-crud-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/13.Spring Data(Avanzado)/SubirYBajarFicheros/block13-upload-download-file/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Herramientas MavenGit/ej3.1-maven-package/Ejercicio3.1/pom.xml" />
+        <option value="$PROJECT_DIR$/14.Testing con JUnit avanzado/Testing CRUD/block7-crud-validation/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK" />
+</project>

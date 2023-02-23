@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "dae349b0-2c1f-4f26-b037-53deede98460",
+		"name": "ej6.2-person-controllers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21517135"
+	},
+	"item": [
+		{
+			"name": "Ingresasr atributos por Header",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "name",
+						"value": "maria",
+						"type": "text"
+					},
+					{
+						"key": "city",
+						"value": "barcelona",
+						"type": "text"
+					},
+					{
+						"key": "age",
+						"value": "41",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "application/gzip,dflate,br",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "estoesunacookie",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8087/controlador1/addPerson",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"controlador1",
+						"addPerson"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ingresasr atributos por Header parte 2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "name",
+						"value": "maria",
+						"type": "text"
+					},
+					{
+						"key": "city",
+						"value": "barcelona",
+						"type": "text"
+					},
+					{
+						"key": "age",
+						"value": "41",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "application/gzip,dflate,br",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Cookie",
+						"value": "estoesunacookie",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8087/controlador2/getPersona",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"controlador2",
+						"getPersona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adicionar CIudad",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "madrid",
+						"type": "text"
+					},
+					{
+						"key": "nPopulation",
+						"value": "3878979",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8087/controlador1/addCiudad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"controlador1",
+						"addCiudad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar ciudades creadas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/controlador2/controlador1/getCiudad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"controlador2",
+						"controlador1",
+						"getCiudad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta de Bean",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/controlador/bean/bean1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"controlador",
+						"bean",
+						"bean1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

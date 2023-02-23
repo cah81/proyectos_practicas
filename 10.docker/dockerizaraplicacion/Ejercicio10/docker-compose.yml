@@ -1,0 +1,31 @@
+version: "3.8"
+
+services: #Servicios, es decir, los contenedores que vamos a crear
+  mispringboot: #Nombre del contenedor
+    image: app-springboot-postgresql
+    build: ./  #Indicamos que este contenedor se va a construrir a traves del Dockerfile
+    ports: #Vamos a indicar una lista de los puertos que vamos a mapear para el contenedor
+      - "8081:8081" #PuertoDelHost:PuertoDelContenedor
+    networks:
+      - mynetwork
+    environment:
+      SPRING.DATASOURCE.URL: jdbc:postgresql://server:5432/testPostgres
+      #el nombre de postgresl corresponde  a la que esta definida en el docker composyte
+    depends_on:
+      - server
+
+  server:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      DATABASE_HOST: 127.0.0.1
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: contrasena
+      POSTGRES_DB: testPostgres
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-naming-server/API_Discovery.iml" filepath="$PROJECT_DIR$/eureka-naming-server/API_Discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apigateway/apigateway.iml" filepath="$PROJECT_DIR$/apigateway/apigateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-front/backendfront.iml" filepath="$PROJECT_DIR$/backend-front/backendfront.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/block16-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/block16-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-detail/customer-detail.iml" filepath="$PROJECT_DIR$/customer-detail/customer-detail.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/10.docker.iml" filepath="$PROJECT_DIR$/.idea/10.docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dockerizaraplicacion/Ejercicio10/Ejercicio10.iml" filepath="$PROJECT_DIR$/dockerizaraplicacion/Ejercicio10/Ejercicio10.iml" />
+    </modules>
+  </component>
+</project>

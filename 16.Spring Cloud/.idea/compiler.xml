@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apigateway" />
+        <module name="backendfront" />
+        <module name="backend" />
+        <module name="API_Discovery" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="API_Discovery" target="17" />
+      <module name="apigateway" target="17" />
+      <module name="backend" target="17" />
+      <module name="backendfront" target="17" />
+      <module name="customer" target="17" />
+      <module name="customer-detail" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API_Discovery" options="-parameters" />
+      <module name="apigateway" options="-parameters" />
+      <module name="backend" options="-parameters" />
+      <module name="backendfront" options="-parameters" />
+      <module name="customer" options="-parameters" />
+      <module name="customer-detail" options="-parameters" />
+    </option>
+  </component>
+</project>

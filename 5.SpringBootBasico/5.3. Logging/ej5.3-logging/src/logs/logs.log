@@ -1,0 +1,39 @@
+2022-09-19 17:23:52,635 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:18] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:18)
+2022-09-19 17:25:33,675 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-09-19 17:30:11,494 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-09-19 17:32:49,795 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-09-19 17:34:16,492 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-09-19 17:36:45,606 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-09-19 17:38:07,669 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-09-19 17:38:47,794 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-09-19 17:39:33,706 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-09-19 18:39:18,179 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-09-22 14:04:14,489 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-11-04 12:26:37,951 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)
+2022-11-04 12:46:15,812 ERROR [main] c.b.S.ApplicationSBB5_3 [ApplicationSBB5_3.java:19] Error Message Logged !!!
+java.lang.NullPointerException: Something is NULL
+	at com.bosonit.SBB_EJ5_3.ApplicationSBB5_3.main(ApplicationSBB5_3.java:19)

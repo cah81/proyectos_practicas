@@ -1,0 +1,60 @@
+version: '3.8'
+services:
+  spring-consumer:
+    image: app-consumer
+    ports:
+      - "9999:9999"
+    depends_on:
+      - kafka
+    environment:
+      server.port: 9999
+      spring.kafka.bootstrap-servers: kafka:29092
+    networks:
+      - kafka-network
+  spring-producer:
+    image: app-producer
+    ports:
+      - "8888:8888"
+    depends_on:
+      - kafka
+    environment:
+      server.port: 8888
+      spring.kafka.bootstrap-servers: kafka:29092
+    networks:
+      - kafka-network
+
+
+  zookeeper:
+    container_name: zookeeper
+    image: 'confluentinc/cp-zookeeper:latest'
+    ports:
+      - "2181:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    networks:
+      - kafka-network
+
+  kafka:
+    container_name: kafka
+    image: 'confluentinc/cp-kafka:latest'
+    depends_on:
+      - zookeeper
+    ports:
+      - "29092:29092"
+
+
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,PLAINTEXT_HOST://kafka:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_ADVERTISED_HOST_NAME: localhost
+    networks:
+      - kafka-network
+
+networks:
+  kafka-network:
+    driver: bridge

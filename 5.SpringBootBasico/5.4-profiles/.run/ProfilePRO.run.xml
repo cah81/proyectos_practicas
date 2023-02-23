@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ProfilePRO" type="Application" factoryName="Application">
+    <envs>
+      <env name="spring.profiles.active" value="PRO" />
+      <env name="server.port" value="8081" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.profile.profiles.ProfilesApplication" />
+    <module name="5.4-profiles" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "1d3b577d-9690-421f-9a97-9348d672beea",
+		"name": "Ejercicio 13.2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21517135"
+	},
+	"item": [
+		{
+			"name": "Crear Persona",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"usuario\": \"pedrose\",\r\n    \"password\": \"1xnj\",\r\n    \"name\": \"pedro\",\r\n    \"surname\": \"ramirez\",\r\n    \"company_email\": \"jtest.angulo@bosonit.com\",\r\n    \"personal_email\": \"jtest1981@gmail.com\",\r\n    \"created_date\": \"2020-01-01\",\r\n    \"image_url\": \"barcelona\",\r\n    \"city\": \"susus\",\r\n    \"active\": true,\r\n    \"termination_date\": \"2020-01-20\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/person/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Person por id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"usuario\": \"pedrose\",\r\n    \"password\": \"1xnj\",\r\n    \"name\": \"pedro\",\r\n    \"surname\": \"ramirez\",\r\n    \"company_email\": \"jtest.angulo@bosonit.com\",\r\n    \"personal_email\": \"jtest1981@gmail.com\",\r\n    \"created_date\": \"2020-01-01\",\r\n    \"image_url\": \"barcelona\",\r\n    \"city\": \"susus\",\r\n    \"active\": true,\r\n    \"termination_date\": \"2020-01-20\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/person/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Persona",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"usuario\": \"pedro\",\r\n    \"password\": \"1xnj\",\r\n    \"name\": \"pedro\",\r\n    \"surname\": \"ramirez\",\r\n    \"company_email\": \"jtest.angulo@bosonit.com\",\r\n    \"personal_email\": \"jtest1981@gmail.com\",\r\n    \"created_date\": \"2020-01-01\",\r\n    \"image_url\": \"barcelona\",\r\n    \"city\": \"susus\",\r\n    \"active\": true,\r\n    \"termination_date\": \"2020-01-20\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/person/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista de personas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Persona",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista paginada de personas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person/allPaginated?pageSize=10&numPage=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"allPaginated"
+					],
+					"query": [
+						{
+							"key": "pageSize",
+							"value": "10"
+						},
+						{
+							"key": "numPage",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ej5.1-command-line-runner" type="Application" factoryName="Application">
+    <envs>
+      <env name="server.port" value="8081" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.bosonit.SBB1_Ej5_1.ApplicationSBB5_1" />
+    <module name="ej5.1-command-line-runner" />
+    <option name="PROGRAM_PARAMETERS" value="carlos" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

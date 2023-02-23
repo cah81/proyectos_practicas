@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc333b64-2dc0-483c-8441-20a3bc5240a1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../10.docker/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.docker/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.docker/dockerizaraplicacion/Ejercicio10/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.docker/dockerizaraplicacion/Ejercicio10/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10.docker/dockerizaraplicacion/Ejercicio10/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../10.docker/dockerizaraplicacion/Ejercicio10/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.Mensajeria/Kafka/.run/Create Image Docker Consumer.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.Mensajeria/Kafka/.run/Create Image Docker Consumer.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.Mensajeria/Kafka/.run/Create Image producer.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.Mensajeria/Kafka/.run/Create Image producer.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.Mensajeria/Kafka/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.Mensajeria/Kafka/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13.Spring Data(Avanzado)/CriteriaBuilder/block7-crud-validation/src/main/java/com/formacion/BS7_2/person/application/services/servicesImpl/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../13.Spring Data(Avanzado)/CriteriaBuilder/block7-crud-validation/src/main/java/com/formacion/BS7_2/person/application/services/servicesImpl/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../16.Spring Cloud/block16-spring-cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../16.Spring Cloud/block16-spring-cloud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17.batch/temperature-batch/output/REGISTROS_ERRONEO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.batch/temperature-batch/output/REGISTROS_ERRONEO.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17.batch/temperature-batch/output/out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.batch/temperature-batch/output/out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../17.batch/temperature-batch/src/main/java/com/temperature_batch/infraestructure/job/configuration/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17.batch/temperature-batch/src/main/java/com/temperature_batch/infraestructure/job/configuration/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.SpringBootBasico/5.3. Logging/ej5.3-logging/src/logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.SpringBootBasico/5.3. Logging/ej5.3-logging/src/logs/logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ej7.2-crud-validation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ej7.2-crud-validation/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/POSTMAN/Service locator factory bean.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/springboot-service-locator-factory-bean/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/VehiculosApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/config/VehiculoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/infraestructure/controller/VehicleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/model/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/registry/AdapterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/registry/ServiceRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/services/BikeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/services/BusService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/services/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/java/com/examen/vehiculos/services/TruckService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen-14102022/src/test/java/com/examen/vehiculos/VehiculosApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen_JPA_cascada/examen-jpa/src/main/java/com/examejpa/examenjpa/cabecerafra/application/FacturaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen_JPA_cascada/examen-jpa/src/main/java/com/examejpa/examenjpa/cabecerafra/application/FacturaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen_JPA_cascada/examen-jpa/src/main/java/com/examejpa/examenjpa/cabecerafra/infraestructure/controller/FacturaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen_JPA_cascada/examen-jpa/src/main/java/com/examejpa/examenjpa/cabecerafra/infraestructure/controller/FacturaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../examen_JPA_cascada/examen-jpa/src/main/java/com/examejpa/examenjpa/cabecerafra/infraestructure/dto/FacturaOutPutDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../examen_JPA_cascada/examen-jpa/src/main/java/com/examejpa/examenjpa/cabecerafra/infraestructure/dto/FacturaOutPutDto.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HtpkHOzRb9bEtUxL4dzU8591JM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/carlosenrique.angulo/Desktop/formacionJava/FormacionJava/7. Spring Data (Básico)/7.2. CRUD con validación&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Run8080" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc333b64-2dc0-483c-8441-20a3bc5240a1" name="Changes" comment="" />
+      <created>1669114375165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669114375165</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

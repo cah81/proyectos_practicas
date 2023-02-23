@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BS6.1" />
+        <module name="myapp-consumer" />
+        <module name="BS6.3" />
+        <module name="motorService" />
+        <module name="com.ej5.3-logging" />
+        <module name="BS7_2 (1)" />
+        <module name="Ejercicio3.3" />
+        <module name="temperature-batch" />
+        <module name="backend" />
+        <module name="BS7_2 (3)" />
+        <module name="upload-download-file" />
+        <module name="singleton" />
+        <module name="ej5.2-properties" />
+        <module name="myapp-producer" />
+        <module name="com.bosonit.sb1" />
+        <module name="profiles" />
+        <module name="ej1.1-process-file-and-streams" />
+        <module name="apigateway" />
+        <module name="backendfront" />
+        <module name="BS7_1" />
+        <module name="BS7_2" />
+        <module name="BS7_2 (2)" />
+        <module name="examen-jpa" />
+        <module name="API_Discovery" />
+        <module name="ej6.2-person-controller" />
+        <module name="Ejercicio10" />
+        <module name="BS7_2 (4)" />
+      </profile>
+      <profile name="Annotation profile for Spring-mongo-template" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="Spring-mongo-template" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="API_Discovery" target="17" />
+      <module name="apigateway" target="17" />
+      <module name="backend" target="17" />
+      <module name="backendfront" target="17" />
+      <module name="BS6.1" target="17" />
+      <module name="BS6.3" target="17" />
+      <module name="BS7_1" target="17" />
+      <module name="BS7_2" target="17" />
+      <module name="BS7_2 (1)" target="17" />
+      <module name="BS7_2 (2)" target="17" />
+      <module name="BS7_2 (3)" target="17" />
+      <module name="BS7_2 (4)" target="17" />
+      <module name="com.bosonit.sb1" target="17" />
+      <module name="com.ej5.3-logging" target="17" />
+      <module name="ej1.1-process-file-and-streams" target="17" />
+      <module name="ej5.2-properties" target="17" />
+      <module name="ej6.2-person-controller" target="17" />
+      <module name="Ejercicio10" target="17" />
+      <module name="Ejercicio3.3" target="17" />
+      <module name="examen-jpa" target="17" />
+      <module name="motorService" target="18" />
+      <module name="myapp-consumer" target="17" />
+      <module name="myapp-producer" target="17" />
+      <module name="profiles" target="17" />
+      <module name="singleton" target="17" />
+      <module name="Spring-mongo-template" target="11" />
+      <module name="temperature-batch" target="17" />
+      <module name="upload-download-file" target="17" />
+      <module name="vehiculos" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API_Discovery" options="-parameters" />
+      <module name="BS6.1" options="-parameters" />
+      <module name="BS6.3" options="-parameters" />
+      <module name="BS7_1" options="-parameters" />
+      <module name="BS7_2" options="-parameters" />
+      <module name="BS7_2 (1)" options="-parameters" />
+      <module name="BS7_2 (2)" options="-parameters" />
+      <module name="BS7_2 (3)" options="-parameters" />
+      <module name="BS7_2 (4)" options="-parameters" />
+      <module name="Ejercicio10" options="-parameters" />
+      <module name="Spring-mongo-template" options="-parameters" />
+      <module name="apigateway" options="-parameters" />
+      <module name="backend" options="-parameters" />
+      <module name="backendfront" options="-parameters" />
+      <module name="com.bosonit.sb1" options="-parameters" />
+      <module name="com.ej5.3-logging" options="-parameters" />
+      <module name="ej5.2-properties" options="-parameters" />
+      <module name="ej6.2-person-controller" options="-parameters" />
+      <module name="examen-jpa" options="-parameters" />
+      <module name="motorService" options="-parameters" />
+      <module name="myapp-consumer" options="-parameters" />
+      <module name="myapp-producer" options="-parameters" />
+      <module name="profiles" options="-parameters" />
+      <module name="temperature-batch" options="-parameters" />
+      <module name="upload-download-file" options="-parameters" />
+    </option>
+  </component>
+</project>

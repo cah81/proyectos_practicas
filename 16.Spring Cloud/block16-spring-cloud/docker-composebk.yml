@@ -1,0 +1,80 @@
+version: '3' #Version de Docker compose que estamos utilizando
+services:
+  eureka-server:
+    container_name: eureka-server
+    image: eureka-server
+    expose:
+      - 7070
+    ports:
+      - 7070:7070
+
+  api-gateway:
+      container_name: api-gateway
+      image: apigateway
+      expose:
+        - 8082
+      ports:
+        - 8082:8082
+      environment:
+        EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:7070/eureka
+        SERVER_PORT: 8082
+      links:
+        - eureka-server
+      depends_on:
+        - eureka-server
+
+  backend:
+    container_name: backend-back
+    image: backend
+    expose:
+      - 8080
+    ports:
+      - "8080:8080"
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:7070/eureka
+      SPRING.DATASOURCE.URL: jdbc:postgresql://serverBdBack:5432/backend
+      SERVER_PORT: 8080
+    links:
+      - eureka-server
+    depends_on:
+      - eureka-server
+      - serverBdBack
+
+  frontend:
+    container_name: backend-front
+    image: backend-front
+    expose:
+      - 6060
+    ports:
+      - 6060:6060
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:7070/eureka
+      SPRING.DATASOURCE.URL: jdbc:postgresql://serverBDFront:5432/frontend
+
+      SERVER_PORT: 6060
+    links:
+      - eureka-server
+    depends_on:
+      - eureka-server
+      - serverBDFront
+
+  serverBdBack:
+    container_name: bdBackend
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER : root
+      POSTGRES_PASSWORD : root
+      POSTGRES_DB: backend
+
+  serverBDFront:
+    container_name: bdFrontEnd
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER : root
+      POSTGRES_PASSWORD : root
+      POSTGRES_DB: frontend
+
+
+

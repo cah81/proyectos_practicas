@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/1.JavaDeveloperKit(JDK)/1.1. Lectura de ficheros y filtrado con Stream/ej1.1-process-file-and-streams/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/1.JavaDeveloperKit(JDK)/1.1. Lectura de ficheros y filtrado con Stream/ej1.1-process-file-and-streams/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10.docker/dockerizaraplicacion/Ejercicio10/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10.docker/dockerizaraplicacion/Ejercicio10/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11.SpringWebAvanzado/CORS/block7-crud-validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11.SpringWebAvanzado/CORS/block7-crud-validation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12.Mensajeria/Kafka/myapp-producer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13.Spring Data(Avanzado)/CriteriaBuilder/block7-crud-validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13.Spring Data(Avanzado)/CriteriaBuilder/block7-crud-validation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13.Spring Data(Avanzado)/Mongo/ejercicio13_2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13.Spring Data(Avanzado)/Mongo/ejercicio13_2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13.Spring Data(Avanzado)/SubirYBajarFicheros/block13-upload-download-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13.Spring Data(Avanzado)/SubirYBajarFicheros/block13-upload-download-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14.Testing con JUnit avanzado/Testing CRUD/block7-crud-validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14.Testing con JUnit avanzado/Testing CRUD/block7-crud-validation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15.Spring Security/Login/block7-crud-validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15.Spring Security/Login/block7-crud-validation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/apigateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/apigateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend-front/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend-front/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/backend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/eureka-naming-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16.Spring Cloud/block16-spring-cloud/eureka-naming-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17.batch/temperature-batch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17.batch/temperature-batch/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Herramientas MavenGit/ej3.1-maven-package/Ejercicio3.1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Herramientas MavenGit/ej3.1-maven-package/Ejercicio3.1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.SpringBootBasico/5.1. CommandLineRunner/ej5.1-command-line-runner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.SpringBootBasico/5.1. CommandLineRunner/ej5.1-command-line-runner/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.SpringBootBasico/5.2. Carga de propiedades/ej5.2-properties/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.SpringBootBasico/5.2. Carga de propiedades/ej5.2-properties/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.SpringBootBasico/5.3. Logging/ej5.3-logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.SpringBootBasico/5.3. Logging/ej5.3-logging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.SpringBootBasico/5.4-profiles/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.SpringBootBasico/5.4-profiles/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.1-simple-controllers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.1-simple-controllers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.2-person-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.2-person-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.3-path-variable-headers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6. Spring Web/6.1. Controladores/ej6.3-path-variable-headers/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7. Spring Data (Básico)/7.1. CRUD/ej7.1-crud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7. Spring Data (Básico)/7.1. CRUD/ej7.1-crud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7. Spring Data (Básico)/7.2. CRUD con validación/ej7.2-crud-validation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7. Spring Data (Básico)/7.2. CRUD con validación/ej7.2-crud-validation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examen_JPA_cascada/examen-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/examen_JPA_cascada/examen-jpa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serviceLocator2/motorService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serviceLocator2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serviceLocator2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singleton/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/singleton/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

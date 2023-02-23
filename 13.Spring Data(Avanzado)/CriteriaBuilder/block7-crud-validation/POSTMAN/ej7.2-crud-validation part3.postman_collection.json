@@ -1,0 +1,756 @@
+{
+	"info": {
+		"_postman_id": "321c9741-e170-4ecc-9098-a21bd74f24f3",
+		"name": "ej7.2-crud-validation part3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21517135"
+	},
+	"item": [
+		{
+			"name": "Person",
+			"item": [
+				{
+					"name": "Agregar Persona",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"username\": \"pedro.a\",\r\n    \"password\": 123,\r\n    \"name\": \"pedro\",\r\n    \"surname\": \"ramirez\",\r\n    \"company_email\": \"jtest.angulo@bosonit.com\",\r\n    \"personal_email\": \"jtest1981@gmail.com\",\r\n    \"created_date\": \"2020-01-01\",\r\n    \"city\": \"barcelona\",\r\n    \"image_url\": \"susus\",\r\n    \"active\": true\r\n    \r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/person/addPerson",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"person",
+								"addPerson"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lista de personas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/person/personList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"person",
+								"personList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mostrar por id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/person/person/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"person",
+								"person",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Borrar Registro",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/person/delete/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"person",
+								"delete",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consulta por nombre",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/person/person/username/pedro.c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"person",
+								"person",
+								"username",
+								"pedro.c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "actualizar registro",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"username\": \"carlos.e\",\r\n    \"password\": 1234,\r\n    \"name\": \"pedros\",\r\n    \"surname\": \"angulo\",\r\n    \"company_email\": \"carlosenrique.angulo@bosonit.com\",\r\n    \"personal_email\": \"carles1981@gmail.com\",\r\n    \"city\": \"barcelona\",\r\n    \"active\": true,\r\n    \"created_date\": \"2020-01-01\",\r\n     \"image_url\":null,\r\n    \"termination_date\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/person/update/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"person",
+								"update",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTeacher",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/person/professor/teacher-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"person",
+								"professor",
+								"teacher-1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Student",
+			"item": [
+				{
+					"name": "Agregar Estudiante",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_person\": 3,\r\n    \"id_teacher\":\"teacher-1\",\r\n    \"num_hours_week\":2,\r\n    \"coments\":\"test\",\r\n    \"branch\":\"Back\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/student/addstudent",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"student",
+								"addstudent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lista de estudiantes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/student/studentlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"student",
+								"studentlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n    \r\n        \"num_hours_week\": 3,\r\n        \"coments\": \"test\",\r\n        \"branch\": \"Front\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/student/update/student-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"student",
+								"update",
+								"student-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Estudiante",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/student/delete/student-3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"student",
+								"delete",
+								"student-3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar estudiante por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/student/student/student-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"student",
+								"student",
+								"student-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lista de estudiantes outType",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/student/student/person/student-1?outputType=full",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"student",
+								"person",
+								"student-1"
+							],
+							"query": [
+								{
+									"key": "outputType",
+									"value": "full"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar Asignatura a estudiante",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\"studentsubject-1\"]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/student/add/student-1?idSubject=subject-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"student",
+								"add",
+								"student-1"
+							],
+							"query": [
+								{
+									"key": "idSubject",
+									"value": "subject-1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por estudiante y mostrar lista de asignaturas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/subject/subject/student-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"subject",
+								"subject",
+								"student-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteSubjectFromStudent Copy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    \r\n        [\r\n            \"studentsubject-1\"\r\n        ]\r\n    \r\n    \r\n   \r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/student/delete/subject/student-1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"student",
+								"delete",
+								"subject",
+								"student-1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Teacher",
+			"item": [
+				{
+					"name": "Crear Teacher",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_person\": 1,\r\n    \"comments\":\"Profesor Aleman\",\r\n    \"branch\":\"Aleman\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teacher/addteacher",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teacher",
+								"addteacher"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Teacher",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_person\": 1,\r\n    \"comments\":\"esto es g prueba\",\r\n    \"branch\":\"Front\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/teacher/update/teacher-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"teacher",
+								"update",
+								"teacher-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mostrar lista teacher",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"comments\":\"esto es otra prueba\",\r\n    \"branch\":\"Front\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teacher/teacherlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teacher",
+								"teacherlist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mostrar teacher por id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"comments\":\"esto es otra prueba\",\r\n    \"branch\":\"Front\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teacher/teacher/teacher-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teacher",
+								"teacher",
+								"teacher-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar teacher",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/teacher/delete/teacher-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"teacher",
+								"delete",
+								"teacher-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lista de Teacher outType",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/teacher/teacher/person/teacher-1?outputType=full",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teacher",
+								"teacher",
+								"person",
+								"teacher-1"
+							],
+							"query": [
+								{
+									"key": "outputType",
+									"value": "full"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Subject",
+			"item": [
+				{
+					"name": "Adicionar curso",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{   \"id_teacher\": \"teacher-1\",\r\n    \"nameSubject\":\"castellano\",\r\n    \"comments\":\"castellano\",\r\n    \"initial_date\":\"2020-01-01\",\r\n    \"finish_date\":\"2020-01-30\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/subject",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"subject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar curso",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"course\":\"matematica\",\r\n    \"comments\":\"esto es otro comentario\",\r\n    \"initial_date\":\"2020-01-01\",\r\n    \"finish_date\":\"2020-01-30\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/course/update/course-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"course",
+								"update",
+								"course-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar curso",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"course\":\"matematica\",\r\n    \"comments\":\"esto es un comentario\",\r\n    \"initial_date\":\"2020-01-01\",\r\n    \"finish_date\":\"2020-01-30\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/subject/subject/delete/studentsubject-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"subject",
+								"subject",
+								"delete",
+								"studentsubject-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Cursos",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"course\":\"matematica\",\r\n    \"comments\":\"esto es un comentario\",\r\n    \"initial_date\":\"2020-01-01\",\r\n    \"finish_date\":\"2020-01-30\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/subject_students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"subject_students"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mostrar Curso por id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"course\":\"matematica\",\r\n    \"comments\":\"esto es un comentario\",\r\n    \"initial_date\":\"2020-01-01\",\r\n    \"finish_date\":\"2020-01-30\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/course/course/studentsubject-4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"course",
+								"course",
+								"studentsubject-4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
